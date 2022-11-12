@@ -12,7 +12,6 @@ function solve(first, second) {
         }
 
     }
-
     commonElements.forEach(element => {
         console.log(element);
     });
