@@ -1,0 +1,12 @@
+function convert(name,lastName,hairColor){
+
+    let person = {
+        name,
+        lastName,
+        hairColor
+    }
+    let json = JSON.stringify(person);
+    console.log(json);
+
+}
+convert('George', 'Jones', 'Brown');
