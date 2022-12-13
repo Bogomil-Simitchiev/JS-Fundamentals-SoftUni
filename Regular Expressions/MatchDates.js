@@ -4,8 +4,7 @@ function matchDates(input) {
     let pattern = /\b(?<day>\d{2})([.\/-])(?<month>[A-Z][a-z]{2})\2(?<year>\d{4})\b/g;
 
     let matches = text.matchAll(pattern);
-
-    let validDates = [];
+    
     for (let match of matches) {
         let day = match.groups['day'];
         let month = match.groups['month'];
