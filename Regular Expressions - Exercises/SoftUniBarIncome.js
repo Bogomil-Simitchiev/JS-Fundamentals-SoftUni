@@ -1,7 +1,5 @@
 function solve(input) {
-
-    let map = new Map();
-
+    
     let totalIncome = 0;
     for (let index = 0; index < input.length - 1; index++) {
 
