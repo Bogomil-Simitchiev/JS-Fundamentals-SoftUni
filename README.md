@@ -1,3 +1,2 @@
 # JS-Fundamentals-SoftUni
-
-All exercises for this course
+SoftUni JS-Fundamentals Course
